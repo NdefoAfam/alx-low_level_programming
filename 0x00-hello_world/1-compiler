@@ -1,2 +1,2 @@
-#!/bin/ban
-gcc -c $CFILE
+#!/bin/bash
+gcc -c $FILE
