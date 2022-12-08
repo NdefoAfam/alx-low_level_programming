@@ -2,10 +2,9 @@
 #include <unistd.h>
 
 /**
- * main - prints exactly and that piece of art is useful
+ * main - Entry point
  *
- * Return: prints exactly and that piece of art is useful
- * Always (1)
+ * Return: Always (1)
  */                                                                                                                            
 
 int main(void)
