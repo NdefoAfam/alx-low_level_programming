@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print all strings from 0 to 9
+ * main - prints all strings from 0 to 9
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -11,7 +11,7 @@ int main(void)
 	for (num = 0; num < 10; num++)
 		printf("%d", num);
 
-	Printf("\n");
+	printf("\n");
 
 	return (0);
 }
