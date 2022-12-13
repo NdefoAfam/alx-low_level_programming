@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _isalpha - checks for char alphabet
+ *main - checks for char alphabet
  * @c: the char is to be checked
  * Return: 1 if char is letter lower or upper, 0 otherwise
-*/
+ */
 
 int _isalpha(int c)
 {
@@ -12,3 +12,4 @@ int _isalpha(int c)
 		return (1);
 	else
 		return (0);
+}
