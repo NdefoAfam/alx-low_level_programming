@@ -1,47 +1,26 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
- * times_table - print the 9 times table
- * Return: 0 Aways (Success)
+ * main -m main block
+ * Description: prints all single number of base 10ase 10
+ * starting from a new line
+ * Return: 0
  */
-void times_table(void)
+int main(void)
 {
-	int a, b, c;
+	int c = 0;
 
-	for (a = 0; a <= 9; a++)
+	while (c < 10)
 	{
-		for (b = 0; b <= 9; b++)
+		putchar(48 + c);
+		if (c != 9)
 		{
-			c = a * b;
-			if ((c / 10) == 0)
-
-				if (b == 0)
-				{
-					_putchar('0');
-				}
-
-			if (b != 0)
-			{
-				-putchar(' ');
-				-putchar((c % 10) + '0');
-			}
-
-			if (b < 9)
-			{
-				_putchar(',');
-				_putchar(' ');
-			}
+			putchar(',');
+			putchar(' ');
 		}
-		else
-		{
-			_putchar((c / 10) + '0');
-			_putchar((c % 10) + '0');
-			if (b < 9)
-			{
-				_putchar(',');
-				_putchar(' ');
-			}
-		}
+		c++;
 	}
-	_putchar('\n');
-	}
+
+	putchar('\n');
+	return (0);
 }
