@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *main - check for alphabet
- * @c: ichararacter to be checked
+ *main - Entry point
+ * @c: chararacter to be checked
  * Return: 1 if chararacter is letter, 0 otherwise
  */
 
