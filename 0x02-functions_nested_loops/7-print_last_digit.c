@@ -2,7 +2,7 @@
 
 /**
  * main - check the code
- * @n: the number
+ *
  * Return: Always 0
  */
 int main(void)
