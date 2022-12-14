@@ -5,7 +5,7 @@
  * @n: the number
  * Return: value of the last digit
  */
-int res;
+int print_last_digit (int n)
 
 	if (num < 0)
 	{
