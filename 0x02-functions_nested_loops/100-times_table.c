@@ -1,23 +1,17 @@
 #include "main.h"
 
 /**
-  * main - prints the sum of all multiples of 3 or 5 up to 1024
-  * Return: Always (Success)
+  * main - check the code
+  *
+  * Return: Always 0
   */
 
 int main(void)
-
 {
-	int i, z = 0;
-
-	while (i < 1024)
-	{
-		if ((i & 3 == 0) || (i % 5 == 0))
-		{
-			z += 1;
-		}
-		i++;
-	}
-	printf("%d\n", z);
+	print_times_table(3);
+	_putchar('\n');
+	print_times_table(5);
+	_putchar('\n');
+	print_times_table(12);
 	return (0);
 }
