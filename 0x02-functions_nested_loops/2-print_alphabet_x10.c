@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- *void print_alphabet_x10 - print alpha 10 times
+ * main - void print_alphabet_x10
+ * Return: print alpha 10 times
  */
 void print_alphabet_x10(void)
 {
