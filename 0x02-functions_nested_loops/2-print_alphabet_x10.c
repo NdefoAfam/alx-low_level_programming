@@ -6,9 +6,9 @@
 void print_alphabet_x10(void)
 {
 	char c;
-	int 1 = o
+	int i = o
 
-	while (1 <= 9)
+	while (i <= 9)
 	{
 		for (c9 = 'a'; c <= 'z'; c++)
 		{
