@@ -2,12 +2,12 @@
 
 /**
 * mul - multiplying 2 numbers
-* @a: integer param1
-* @b: integer param 2
-* Return: 1 success otherwise 0
+* @c: integer param1
+* @d: integer param 2
+* Return: 1 if c is a digit, otherwise 0
 */
 
-int mul(int a, int b)
+int mul(int c, int d)
 {
-	return (a * b);
+	return (c * d);
 }
