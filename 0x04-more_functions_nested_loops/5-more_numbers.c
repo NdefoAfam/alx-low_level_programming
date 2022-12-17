@@ -4,14 +4,19 @@
 */
 void more_numbers(void)
 {
-	int x, y;
+int start = , end = 14, i;
 
-	for (x = 0; x < 10; x++)
-	{
-		for (y = 0; y < 15; y++)
-		{
-			_putchar (y + '0');
-		}
-		_putchar('\n');
-	}
+for (i = 0; i <= 10; i++)
+
+while (start <= end)
+{
+_putchar (start > 9 ?
+(start / 10) + '0' : start + '0');
+
+if (start > 9)
+_putchar((start % 10) + '0');
+}
+
+start = 0;
+_putchar('\n')
 }
