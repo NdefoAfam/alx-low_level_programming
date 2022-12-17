@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
-*print_most_numbers - this prints most numbers
+* print_most_numbers - this prints most number
+* Return : void
 */
 void print_most_numbers(void);
 {
-	int x;
+	char x;
 
 	for (x = 0; x <= 9; x++)
 	{
