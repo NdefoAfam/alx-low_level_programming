@@ -1,3 +1,6 @@
+#ifndef MAIN_H
+#define MAIN_H
+
 void 0-reset_to_98.c(int * n);
 void swap_int(int *a, int *b);
 int _strlen(char *s);
@@ -9,3 +12,5 @@ void puts_half(char *str);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 void rev_string (char *s)
+
+#endif
