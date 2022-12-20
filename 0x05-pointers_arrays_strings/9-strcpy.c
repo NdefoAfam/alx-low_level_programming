@@ -8,18 +8,14 @@
 */
 char *_strcpy(char *dest, char *src)
 {
+	int cout = 0;
 
-int l = 0;
-int x = 0;
-
-while (*(src + l) != '\0')
-{
-|++;
-}
-for ( ; x < l ; x++)
-{
-dest[x] = src[x];
-}
-	dest[l] = '\0';
+	while (count >= 0)
+	{
+		*(dest + count) = *(src + count);
+		if (*(src + count) == '\0')
+			break;
+		count++;
+	}
 	return (dest);
 }
