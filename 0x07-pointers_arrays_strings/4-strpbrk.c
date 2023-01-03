@@ -1,30 +1,26 @@
 #include "main.h"
 
 /**
-* _strpbrk - Entry point
-* @s: The string to be searched.
-* @accept: input
-* 
-* Return: Always 0 (Success)
-* If no set is matched - NULL.
-*/
+  * _strpbrk - Entry point
+  * @s: input
+  * @accept: input
+  * Return: Always 0 (Success)
+  */
 
 char *_strpbrk(char *s, char *accept)
 
 {
-        int index;
+	int k;
 
-        while (*s)
-
-        {
-		 for (index = 0; accept[index]; index++)
+	while (*s)
+	{
+		for (k = 0; accept[k]; k++)
 		{
-			if (*s == accept[index])
-				 return(s);
+			if (*s == accept[k])
+				return (s);
 		}
 
 		s++;
 	}
-       
 	return ('\0');
 }
