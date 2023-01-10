@@ -9,7 +9,8 @@
  *
  * Return: Always 0 (Success)
  */
-        int check_num(char *str)
+
+int check_num(char *str)
 {
 	/*Declaring variables*/
 
@@ -29,8 +30,7 @@
 	}
 
 	return (1);
-
-        }
+}
 
 /**
 * main - Print the name of the program
@@ -52,17 +52,16 @@ int main(int argc, char *argv[])
 
 	count = 1;
 
-
 	while (count < argc) /*Goes through the whole array*/
 
 	{
 
-     if (check_num(argv[count]))
-     {
-	     str_to_int = atoi(argv[count]); /*ATOI --> convert string to int*/
+	if (check_num(argv[count]))
+	{
+	str_to_int = atoi(argv[count]); /*ATOI --> convert string to int*/
 
-	     sum += str_to_int;
-     }
+	sum += str_to_int;
+	}
 
  /*Condition if one of the number contains symbols that are not digits*/
 
