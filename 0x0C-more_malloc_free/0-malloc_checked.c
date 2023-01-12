@@ -1,5 +1,3 @@
-vi 0-malloc_checked.c
-
 #include <stdlib.h>
 #include "main.h"
 /**
